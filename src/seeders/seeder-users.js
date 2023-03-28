@@ -8,14 +8,13 @@ module.exports = {
       firstName: 'TQV',
       lastName: 'Quoc',
       address: 'VN',
+      phonenumber: 123456789,
       gender: 1,
-      typeRole: 'ROLE',
-      keyRole: 'R1',
       createdAt: new Date(),
       updatedAt: new Date()
     }]);
   },
-
+  
   down: async (queryInterface, Sequelize) => {
     /**
      * Add commands to revert seed here.
